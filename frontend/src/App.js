@@ -94,7 +94,7 @@ function App() {
     <>
       <div class="card text-center">
         <div class="card-header">CBDC Blockchain</div>
-        <div class="card-body">
+        <div class="card-body body-style">
           <h5 class="card-title">Balance: {balance} ETH </h5>
           <p class="card-text">
             Account : {account ? account : " Wallet not connected, Pls connect your wallet!"}
@@ -120,7 +120,7 @@ function App() {
             Withdraw
           </button>
         </div>
-        <div class="card-footer text-muted">Blockchain</div>
+        <div class="card-footer text-muted footer-style">Blockchain</div>
       </div>
     </>
   );
